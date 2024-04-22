@@ -7,8 +7,10 @@ local default_config = {
   keyword_pattern = [[\a\+-\=]],
   filetypes = {
     "md",
+    "markdown",
     "html",
     "txt",
+    "text",
   },
 }
 
