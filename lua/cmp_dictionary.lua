@@ -1,6 +1,6 @@
 local config = require("cmp.config")
 local cmp = require("cmp")
-local source_name = "dictionary"
+local source_name = "iamvictormwangi_dictionary"
 
 local default_config = {
   label = "[" .. (source_name:gsub("^%l", string.upper)) .. "]",
@@ -11,6 +11,9 @@ local default_config = {
     "html",
     "txt",
     "text",
+    "jsx",
+    "tsx",
+    "ejs",
   },
 }
 
